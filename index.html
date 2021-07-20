@@ -19,19 +19,33 @@
 <body>
     <header>
         <div class="top">
-            <div class="logo"><img src="./img/농법로고png.png" alt="logo"></div>
+            <div class="logo"><a href="./index.html"></a></div>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                }
+            </script>
             <nav>
-                <ul class="gnb">
-                    <li id="sec2"><a href="#sec2">Who we are</a></li>
-                    <li id="sec3"><a href="#sec3">When we start</a></li>
-                    <li id="sec4"><a href="#sec4">Where we are</a></li>
-                    <li id="sec5"><a href="#sec5">How we do</a></li>
-                    <li id="sec6"><a href="#sec6">What we produce</a></li>
-                    <li id="sec7"><a href="#sec7">Why we do</a></li>
-                    <li id="sec8"><a href="#sec8">Contact us</a></li>
-                </ul>
+                <div>
+                    <ul class="gnb">
+                        <li id="sec2"><a href="#sec2">Who we are</a></li>
+                        <li id="sec3"><a href="#sec3">When we start</a></li>
+                        <li id="sec4"><a href="#sec4">Where we are</a></li>
+                        <li id="sec5"><a href="#sec5">How we do</a></li>
+                        <li id="sec6"><a href="#sec6">What we produce</a></li>
+                        <li id="sec7"><a href="#sec7">Why we do</a></li>
+                        <li id="sec8"><a href="#sec8">Contact us</a></li>
+                        <li class="lang"><a href="./index.html"><img src="./img/kor.png" alt="">
+                                KOR</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="./eng/index.html"><img src="./img/us.png"
+                                    alt=""> EN</a></li>
+                    </ul>
+                </div>
             </nav>
-            <div class="lang"><a href="./index.html"><img src="./img/kor.png" alt=""> KOR</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="./eng/index.html"><img src="./img/us.png" alt=""> EN</a></div>
         </div>
     </header>
     <section class="sec1">
@@ -44,8 +58,8 @@
                             <span>HOPES PEOPLE</span>
                             <span>HAPPY AND JOY</span>
                         </div>
-                        <video class="nbvid" style="width: 100%;" autoplay loop muted>
-                            <source src="./nbmain.mp4" type="video/mp4">
+                        <video class="nbvid" autoplay loop muted>
+                            <source src=" ./nbmain.mp4" type="video/mp4">
                         </video>
 
                     </div>
@@ -84,17 +98,7 @@
                     prevEl: ".swiper-button-prev",
                 },
             });
-            
         </script>
-
-        <video class="nbvid" style="width: 100%;" autoplay loop muted>
-            <source src="./nbmain.mp4" type="video/mp4">
-        </video>
-        <div class="text">
-            <span>HYUN JUN</span>
-            <span>HOPES PEOPLE</span>
-            <span>HAPPY AND JOY</span>
-        </div>
         <div class="more">
         </div>
     </section>
@@ -152,7 +156,7 @@
                         <!-- <span><img src="./img/Rectangle 70.png" alt="2017"></span>
                         <span>2017</span>
                         <div class="back">2017</div> -->
-                        <img src="./img/Group 142.png" alt="2017">
+                        <img src="./img/Group 150.png" alt="2017">
                     </div>
                 </div>
                 <div class="banner">
@@ -160,7 +164,7 @@
                         <!-- <span><img src="./img/Rectangle 1071.png" alt="2018"></span>
                         <span class="please">2018</span>
                         <div class="back">2018</div> -->
-                        <img src="./img/Group 143.png" alt="2018">
+                        <img src="./img/Group 152.png" alt="2018">
                     </div>
                 </div>
                 <div class="banner">
@@ -168,12 +172,12 @@
                         <!-- <span><img src="./img/Rectangle 108.png" alt="2018"></span>
                         <span class="please">2018</span>
                         <div class="back">2019</div> -->
-                        <img src="./img/Group 144.png" alt="2019">
+                        <img src="./img/Group 153.png" alt="2019">
                     </div>
                 </div>
                 <div class="banner">
                     <div class="front">
-                        <img src="./img/Group 145.png" alt="2020">
+                        <img src="./img/Group 154.png" alt="2020">
                     </div>
                 </div>
             </div>
@@ -282,7 +286,7 @@
                 <option id="option2">Horticulture Business</option>
             </select>
             <div id="box1" class="on">
-                <div class="container">
+                <div class="b1">
                     <form class="f1" onsubmit="return false">
                         <div class="form-item">
                             <label for=""> Your Name:</label><br>
@@ -306,7 +310,7 @@
                 </div>
             </div>
             <div id="box2">
-                <div class="container">
+                <div class="b2">
                     <form class="f2" onsubmit="return false">
                         <div class="form-item">
                             <label for=""> Your Name:</label><br>

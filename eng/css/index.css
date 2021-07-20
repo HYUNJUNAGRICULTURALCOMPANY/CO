@@ -126,10 +126,19 @@ nav {
     width: 200px;
 }
 
-.logo>img {
-    width: 100%;
+.logo>a {
+    width: 200px;
+    height: 100%;
+    display: block;
+    background-image: url(../img/농법로고png.png);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
     line-height: 100px;
-    padding-top: 23px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 900;
 }
 
 section {
@@ -281,13 +290,13 @@ section {
 .more {
     z-index: 500;
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 42px;
+    height: 64px;
     right: 10%;
     bottom: 10%;
-    border: 3px solid white;
+    border: 2px solid white;
     border-radius: 50px;
-    animation: more 5.5s 9.5s;
+    animation: more 6s 9.5s;
     opacity: 0;
 }
 
@@ -1014,4 +1023,7 @@ footer>p {
 
 .go-top:hover {
     background-color: rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 500px) {
+    
 }
